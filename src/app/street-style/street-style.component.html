@@ -1,0 +1,26 @@
+<div 
+    fxLayoutGap="16px grid" 
+    fxLayout="row wrap" 
+    fxLayoutAlign="space-between center">
+    <div 
+        [fxFlex.lt-sm]="50" 
+        [fxFlex.gt-xs]="33"
+        [fxFlex.gt-md]="20" 
+        [fxFlex.gt-sm]="25" 
+        *ngFor = "let img of images">
+        <img [src]="img" [alt]="img">
+    </div>
+    <div 
+        [fxFlex.lt-sm]="50" 
+        [fxFlex.gt-xs]="100" 
+        [fxFlex.gt-md]="20" 
+        [fxFlex.gt-sm]="100" 
+        style="align-self: stretch;">
+        <div class="content">
+            <div class="morestyle">
+                See More Street Style
+            </div>
+        </div>
+    </div>
+</div>
+<br>

@@ -1,0 +1,33 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    height: 100%; 
+    border: 8px solid black;
+}
+.content:hover{
+    .morestyle{
+        color: white;
+    }
+    background-color: black;  
+    cursor: pointer;
+}
+.morestyle{
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+}

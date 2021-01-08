@@ -1,0 +1,28 @@
+.secondaryHeadline{
+    font-size: 32px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    font-weight: 400;
+}
+.secondaryHeadline:before {
+    content: "";
+    width: 100%;
+    border-top: 1px solid #111;
+    position: absolute;
+    display: inline-block;
+    top: 24px;
+    left: 0;
+}
+.secondaryHeadline span{
+    background: #fff;
+    position: relative;
+    padding: 0 14px;
+    text-transform: uppercase;
+}
+    
+
